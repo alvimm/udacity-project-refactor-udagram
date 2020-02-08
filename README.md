@@ -2,4 +2,4 @@
 
 ## Refactor Udagram
 
-Mauricio Alvim
+Mauricio Alvim :smile:
