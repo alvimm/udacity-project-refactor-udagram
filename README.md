@@ -3,7 +3,7 @@
 
 ### Running locally with Docker
 
-You should previously define these envinronment variables locally:
+1. You should define these envinronment variables locally:
   - POSTGRESS_USERNAME
   - POSTGRESS_PASSWORD
   - POSTGRESS_DB
@@ -13,10 +13,11 @@ You should previously define these envinronment variables locally:
   - AWS_BUCKET
   - JWT_SECRET
 
-Build images with:
+2. Build images with:
 `docker-compose -f ./udacity-c3-deployment/docker/docker-compose-build.yaml build`
-Then run with:
+3. Then run with:
 `docker-compose -f ./udacity-c3-deployment/docker/docker-compose.yaml up`
+4. See the app in localhost:8100.
 
 ### Running with Kubernetes
 
