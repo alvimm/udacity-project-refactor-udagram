@@ -1,8 +1,7 @@
 <p align="center">
-  <a href="https://travis-ci.com/alvimm/udacity-project-refactor-udagram"><img src="https://travis-ci.com/alvimm/udacity-project-refactor-udagram.svg?branch=master" alt="Build status /></a>
+  <a href="https://travis-ci.com/alvimm/udacity-project-refactor-udagram"><img src="https://travis-ci.com/alvimm/udacity-project-refactor-udagram.svg?branch=master" alt="Build status" /></a>
 </p>
 
-*
 
 # Udacity Cloud Developer
 ## Refactor Udagram into microservices
