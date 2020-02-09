@@ -1,7 +1,14 @@
-# Udacity
-## Cloud developer - Refactor Udagram into microservices
+<p align="center">
+  <a href="https://travis-ci.com/alvimm/udacity-project-refactor-udagram"><img src="https://travis-ci.com/alvimm/udacity-project-refactor-udagram.svg?branch=master" alt="Build status /></a>
+</p>
+
+
+# Udacity Cloud Developer
+## Refactor Udagram into microservices
 
 ### Running locally with Docker
+
+#### Step by step
 
 1. You should define these envinronment variables locally:
   - POSTGRESS_USERNAME
@@ -18,6 +25,14 @@
 3. Then run with:
 `docker-compose -f ./udacity-c3-deployment/docker/docker-compose.yaml up`
 4. See the app in `localhost:8100`.
+
+#### Docker hub images
+
+The project's images are available at Docker Hub under these names:
+- [alvim/reverseproxy](https://hub.docker.com/repository/docker/alvim/reverseproxy)
+- [alvim/udacity-restapi-feed](https://hub.docker.com/repository/docker/alvim/udacity-restapi-feed)
+- [alvim/udacity-frontend](https://hub.docker.com/repository/docker/alvim/udacity-frontend)
+- [alvim/udacity-restapi-user](https://hub.docker.com/repository/docker/alvim/udacity-restapi-user)
 
 ### Running with Kubernetes
 
