@@ -66,5 +66,3 @@ kubectl port-forward service/reverseproxy 8080:8080
 ```
 
 See the app running in `localhost:8100`.
-
-Mauricio Alvim :smile:
