@@ -6,6 +6,12 @@
 # Udacity Cloud Developer
 ## Refactor Udagram into microservices
 
+### Unit tests
+
+Each module has it's own unit testing command. You have to go inside each directory and run
+`npm install`, if the dependencies are not installed then `npm test`.
+The coverage is still small, but it's intended to increase it soon.
+
 ### Running locally with Docker
 
 #### Step by step
@@ -21,7 +27,7 @@
   - JWT_SECRET
 
 2. Build images with:
-`docker-compose -f ./deployment/docker/docker-compose-build.yaml build`
+`docker-compose -f ./deployment/docker/docker-compose-build.yaml build --parallel`
 1. Then run with:
 `docker-compose -f ./deployment/docker/docker-compose.yaml up`
 4. See the app in `localhost:8100`.
