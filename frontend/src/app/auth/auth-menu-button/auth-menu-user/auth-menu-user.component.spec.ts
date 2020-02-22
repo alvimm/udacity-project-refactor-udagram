@@ -1,5 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { AuthMenuUserComponent } from './auth-menu-user.component';
 import { ModalController } from '@ionic/angular';
@@ -19,6 +20,7 @@ describe('AuthMenuUserPage', () => {
 
 
     TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
       providers: [
         {
           provide: ModalController,
